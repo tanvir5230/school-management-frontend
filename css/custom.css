@@ -97,21 +97,22 @@ body {
 @keyframes wave-animation {
   0% {
     transform: scaleX(1);
-    transform: translateY(1);
+    width: 2000px;
   }
   20% {
-    transform: scaleX(1.3);
+    transform: scaleX(3);
   }
   40% {
     transform: scalex(1.1);
   }
   60% {
-    transform: scaleX(1.3);
+    transform: scaleX(3);
   }
   80% {
     transform: scaleX(1.1);
   }
   100% {
+    width: 2000px;
     transform: scaleX(1);
   }
 }
